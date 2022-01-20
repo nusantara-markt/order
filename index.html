@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== LOGO ====================-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-small.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo-small.png">
+        
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+        <!--==================== CSS ==========-->
+        <link rel="stylesheet" href="assets/contact/css/styles.css">
+
+        <title>Nusantara Markt | Order Item</title>
+    </head>
+    <body>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Order Item</h2>
+                <span class="section__subtitle">Nusantara Markt</span>
+
+                <div class="contact__container container grid">
+                    <!--action="https://formspree.io/f/mdoydndl"-->
+                    <form class="contact1-form contact__form grid" name="gform" id="gform" target="hidden_iframe" onsubmit="submitted=true;"
+                    action="https://docs.google.com/forms/d/1o7tdt-m7mEB7GgqNLiUpy838_mN8mjVP2t2P6OHFT-s/formResponse?">
+
+                        <h3 class="contact__title">Buyer Contact</h3>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Company Name</label>
+                            <input class="contact__input" type="text" name="entry.151533159" id="entry.151533159">
+                        </div>
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Phone</label>
+                                <input class="contact__input" type="text" name="entry.2055820878" id="entry.2055820878">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input class="contact__input" type="email" name="entry.1701820281" id="entry.1701820281">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Address</label>
+                            <textarea cols="0" rows="3" class="contact__input" name="entry.1472843741" id="entry.1472843741"></textarea>
+                        </div>
+                        <h3 class="contact__title">Product Order</h3>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Product Name</label>
+                            <select class="contact__input" type="text" name="entry.1256544672" id="entry.1256544672" onmousedown="if(this.options.length>4){this.size=4;}" onchange='this.size=0;' onblur="this.size=0;">
+                                <option value="" selected>Choose Product</option>
+                                <option value="Halawa Beef">Halawa Beef</option>
+                                <option value="Halawa Chicken">Halawa Chicken</option>
+                                <option value="Halawa Flour">Halawa Flour</option>
+                                <option value="Halawa Mushroom">Halawa Mushroom</option>
+                                <option value="Halawa Pepper">Halawa Pepper</option>
+                            </select>
+                        </div>
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Number of Products</label>
+                                <input class="contact__input" type="number" name="entry.2030712386" id="entry.2030712386" min=1>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Unit</label>
+                                <select class="contact__input" type="text" name="entry.1132239410" id="entry.1132239410">
+                                    <option value="pcs">pcs</option>
+                                    <option value="carton">carton</option>
+                                    <option value="kg">kg</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <button class="button--flex" type="submit" id="cf-submit">
+                                Order Item
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">info@nusantara-markt.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-whatsapp contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Whatsapp</h3>
+                                <span class="contact__subtitle">+49-163-678-6595</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                            style="display:none;" onload="if(submitted){redirect()}"></iframe>
+                </div>
+
+            </section>
+        </main>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/contact/js/main.js"></script>
+
+        <!--==================== CONTACT FORM JS ====================-->
+        <script src="assets/contact/js/submit.js"></script>
+
+    </body>
+</html>
